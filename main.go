@@ -27,7 +27,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
@@ -35,7 +35,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus" // 词典匹配回复
 
-	_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
+	//_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -231,7 +231,7 @@ func init() {
 
 	config.W = []*driver.WSClient{driver.NewWebSocketClient(*url, *token)}
 	config.Z = zero.Config{
-		NickName:      append([]string{*adana}, "", "", "", ""),
+		NickName:      append([]string{*adana}, "九", "", "", ""),
 		CommandPrefix: *prefix,
 		SuperUsers:    sus,
 		Driver:        []zero.Driver{config.W[0]},
