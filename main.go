@@ -27,7 +27,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat" // 基础词库
 
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/sleep_manage" // 统计睡眠时间
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/atri" // ATRI词库
 
@@ -35,7 +35,7 @@ import (
 
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/thesaurus" // 词典匹配回复
 
-	//_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
+	// _ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -64,7 +64,7 @@ import (
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/book_review"    // 哀伤雪刃吧推书记录
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/cangtoushi"     // 藏头诗
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"         // 选择困难症帮手
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/choose"         // 选择困难症帮手
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua" // 说抽象话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"        // 三次元小姐姐
 
@@ -80,7 +80,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin" // 原神抽卡
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"            // 制图
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"         // 搜索GitHub仓库
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"             // 炉石
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/hs"             // 炉石
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hyaku"          // 百人一首
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/image_finder" // 关键字搜图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/inject"       // 注入指令
@@ -90,14 +90,14 @@ import (
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/midicreate"     // 简易midi音乐制作
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu"           // 摸鱼
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu_calendar"  // 摸鱼人日历
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/moyu_calendar"  // 摸鱼人日历
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/music"      // 点歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativesetu" // 本地涩图
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nativewife" // 本地老婆
 
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nbnhhsh"        // 拼音首字母缩写释义工具
 	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/novel"          // 铅笔小说网搜索
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"           // nsfw图片识别
+	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/nsfw"           // nsfw图片识别
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/omikuji"        // 浅草寺求签
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/qqwife"         // 一群一天一夫一妻制群老婆
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/reborn"         // 投胎
